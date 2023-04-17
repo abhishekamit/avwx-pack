@@ -21,7 +21,7 @@ pack.addFormula({
     coda.makeParameter({
       type: coda.ParameterType.String,
       name: "location",
-      description: "ICAO & IATA station code or coordinate pair.",
+      description: "ICAO, IATA station code, or coordinate pair.",
     }),
   ],
 
@@ -264,7 +264,7 @@ pack.addFormula({
     coda.makeParameter({
       type: coda.ParameterType.String,
       name: 'location',
-      description: 'ICAO, IATA station code or coordinate pair. Example: KJFK or 40.639801,-73.778900',
+      description: 'ICAO, IATA station code, or coordinate pair. Example: KJFK or 40.639801,-73.778900',
     }),
   ],
   resultType: coda.ValueType.Object,
